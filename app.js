@@ -32,7 +32,7 @@ app.get("/api/", function (req, res) {
 var dbConn = mysql.createPool({
   host: "localhost",
   user: "root",
-  password: "pass1234",
+  password: "22suarez",
   database: "employeedb",
 });
 
