@@ -9,10 +9,10 @@ services:
     environment:
        MYSQL_ROOT_PASSWORD: 22suarez
        MYSQL_DATABASE: employeedb
-       MYSQL_HOST: 178.128.42.255
+       MYSQL_HOST: 104.248.112.74
        MYSQL_USER: root
     ports:
-      - 3318:3306
+      - 3306:3306
     # Change this to your local path
     volumes:
       - ~/Database/ORM_Test:/var/lib/mysql
