@@ -51,7 +51,6 @@ app.post("/api/save-post", function (req, res) {
 app.get("/api/posts", function (req, res) {
   dbConn.query(
     "select * from employeeDBtable",
-    postData,
     function (error, results, fields) {
       if (error) throw error;
       return res.send({ error: false, data: results, message: "OK" });
