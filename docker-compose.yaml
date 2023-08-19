@@ -1,0 +1,9 @@
+version: '3.8'
+services:
+  db:
+    image: mysql:8.0
+    environment:
+      MYSQL_ROOT_PASSWORD: 22suarez
+      MYSQL_DATABASE: employeedb
+    ports:
+      - "3306:3306"
